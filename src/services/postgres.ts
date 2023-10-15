@@ -3,7 +3,7 @@ import knex, { Knex } from "knex";
 
 const localConnection = {
 	host: "localhost",
-	port: "5432",
+	port: 5438,
 	user: "postgres",
 	password: "postgres",
 	database: "restify",
