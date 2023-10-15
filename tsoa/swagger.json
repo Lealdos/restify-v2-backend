@@ -6,7 +6,7 @@
 		"requestBodies": {},
 		"responses": {},
 		"schemas": {
-			"userOutput": {
+			"UserOutput": {
 				"properties": {
 					"id": {
 						"type": "string"
@@ -62,7 +62,7 @@
 							"application/json": {
 								"schema": {
 									"items": {
-										"$ref": "#/components/schemas/userOutput"
+										"$ref": "#/components/schemas/UserOutput"
 									},
 									"type": "array"
 								}
